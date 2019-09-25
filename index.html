@@ -16,12 +16,13 @@
 
   <body>
 
-  <div id="dialogoverlay"></div>
+  <div id="dialogoverlay" onclick="off()"></div>
   <div id="dialogbox">
     <div>
       <!-- <div id="dialogboxhead"></div> -->
       <div id="dialogboxbody"></div>
       <div id="dialogboxfoot"></div>
+      <div id="button"></div>
     </div>
   </div>
 
@@ -30,17 +31,22 @@
 <img src="images/ophelia.jpg" alt="Workplace" usemap="#workmap">
 
 <map name="workmap">
-
+<div id="hotpoints">
 <area shape="react" coords="336, 269, 395, 337" onclick="Alert.render('NETTLES<br><br>Pain')">
 <!-- <area shape="react" coords="336, 269, 395, 337" onclick="myFunction()"> -->
 <area shape="react" coords="218, 340, 538, 502" onclick="Alert.render('WEEPING WILLOW<br><br>Forsaken love')">
-<area shape="react" coords="370, 670, 390, 690" onclick="Alert.render('PINK ROSES<br><br>Act IV, Scene V Laertes calls his sister, Ophelia, <em>rose of May</em>.<br> Roses are also symbolic for youth, love and beauty')">
-<area shape="react" coords="438, 641, 512, 686" onclick="Alert.render('VIOLETS<br><br>Act IV, Scene V<br>Ophelia: <em>I would give you some violets, but they withered all when my father died: they say he made a good end.</em><br><br>Violets are also a symbol of faithfullness and chastity.')">
+<area shape="react" coords="370, 670, 390, 690" onclick="Alert.render('PINK ROSES<br><br>Act IV, Scene V Laertes calls his sister, Ophelia, <em>rose of May</em><br><br>Roses are also symbolic for youth, love and beauty')">
+<area shape="react" coords="438, 641, 512, 686" onclick="Alert.render('VIOLETS<br><br>Act IV, Scene V<br>Ophelia: <em>I would give you some violets, but they withered all when my father died: they say he made a good end</em><br><br>Violets are also a symbol of faithfullness and chastity.')">
 <area shape="react" coords="1295, 310, 1442, 477" onclick="Alert.render('MEADOWSWEET<br><br>Futility of Ophelia dying')">
 <area shape="react" coords="650, 938, 976, 1038" onclick="Alert.render('CROW FLOWERS<br><br>Ingratitude or childishness')">
-<area shape="react" coords="668, 770, 697, 790" onclick="Alert.render('DAISIES<br><br>Innocence<br><br>Also mentioned in Act IV Scene V, when Ophelia says: <em>There is a daisy</em>')">
+<area shape="react" coords="668, 770, 697, 790" onclick="Alert.render('DAISIES<br><br>Innocence<br><br>Also mentioned in Act IV Scene V, when Ophelia says: <em>There\'s a daisy</em>')">
 <area shape="react" coords="1418, 176, 1518, 280" onclick="Alert.render('LOOSESTRIFE<br><br>Alludes to the <em>long purples</em> mentioned in the play')">
-
+<area shape="react" coords="801, 707, 861, 749" onclick="Alert.render('PANSIES<br><br>Act IV Scene V<br>Ophelia gathers flowers in the field<br><br>They also represent thought and love in vain')">
+<area shape="react" coords="294, 956, 500, 1039" onclick="Alert.render('FORGET-ME-NOTS<br><br>Remembering the dead')">
+<area shape="react" coords="761, 736, 787, 757" onclick="Alert.render('PHEASANT\'S EYE<br><br>Sorrow')">
+<area shape="react" coords="1322, 875, 1518, 966" onclick="Alert.render('FRITILLARY<br><br>Sorrow')">
+<area shape="react" coords="836, 85, 1163, 603" onclick="Alert.render('WHITE FIELD ROSES<br><br>Act IV, Scene V Laertes calls his sister, Ophelia, <em>rose of May</em>.<br><br>Roses are also symbolic for youth, love and beauty')">
+</div>
 </map>
 
 <!-- <button onclick="alert('You look very pretty today.')">Default Alert</button>

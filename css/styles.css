@@ -1,4 +1,4 @@
-#dialogoverlay{
+/* #dialogoverlay{
 	display: none;
 	opacity: .8;
 	position: fixed;
@@ -7,7 +7,26 @@
 	background: lightpink;
 	width: 100%;
 	z-index: 10;
+} */
+
+#hotpoints {
+	cursor: pointer;
 }
+
+#dialogoverlay {
+	position: fixed;
+	display: none;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0,0,0,0.5);
+	z-index: 2;
+	cursor: pointer;
+}
+
 #dialogbox{
 	display: none;
 	position: fixed;
@@ -16,7 +35,28 @@
 	width:550px;
 	z-index: 10;
 }
-#dialogbox > div{ background:white; margin:2px; }
+
+#dialogbox > div {
+	background:white;
+	margin:2px;
+	}
+
 /* #dialogbox > div > #dialogboxhead{ background: #666; font-size:19px; padding:10px; color:#CCC; } */
-#dialogbox > div > #dialogboxbody{ background:#ffffff; padding:20px; color:blue; text-align: center;}
-#dialogbox > div > #dialogboxfoot{ background: #ffffff; padding:10px; text-align:center; }
+
+#dialogbox > div > #dialogboxbody {
+	background:#ffffff;
+	padding:20px;
+	color:blue;
+	text-align: center;
+	font-size: 1.5em;
+}
+
+#dialogbox > div > #dialogboxfoot {
+	background: #ffffff;
+	padding:10px;
+	text-align:center;
+}
+
+#button {
+	background: #ffffff;
+}
