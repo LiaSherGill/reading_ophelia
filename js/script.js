@@ -13,7 +13,7 @@ function CustomAlert(){
         dialogbox.style.left = (winW/2) - (550 * .5)+"px";
         dialogbox.style.top = "100px";
         dialogbox.style.display = "block";
-        document.getElementById('dialogboxhead').innerHTML = "Symbolism";
+        // document.getElementById('dialogboxhead').innerHTML = "Symbolism";
         document.getElementById('dialogboxbody').innerHTML = dialog;
         document.getElementById('dialogboxfoot').innerHTML = '<button onclick="Alert.ok()">Back to Ophelia</button>';
     }
