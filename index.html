@@ -16,7 +16,31 @@
 
   <body>
 
+  <div id="dialogoverlay"></div>
+  <div id="dialogbox">
+    <div>
+      <div id="dialogboxhead"></div>
+      <div id="dialogboxbody"></div>
+      <div id="dialogboxfoot"></div>
+    </div>
+  </div>
 
+<!-- IMAGE MAP -->
+
+<img src="images/ophelia.jpg" alt="Workplace" usemap="#workmap">
+
+<map name="workmap">
+
+<area shape="react" coords="336, 269, 395, 337" onclick="Alert.render('The nettles represent pain.')">
+<!-- <area shape="react" coords="336, 269, 395, 337" onclick="myFunction()"> -->
+
+
+
+</map>
+
+<!-- <button onclick="alert('You look very pretty today.')">Default Alert</button>
+<button onclick="Alert.render('You look very pretty today.')">Custom Alert</button>
+<button onclick="Alert.render('And you also smell very nice.')">Custom Alert 2</button> -->
 
     <!-- JAVASCRIPT -->
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
