@@ -15,7 +15,7 @@ function CustomAlert(){
         dialogbox.style.display = "block";
         // document.getElementById('dialogboxhead').innerHTML = "Symbolism";
         document.getElementById('dialogboxbody').innerHTML = dialog;
-        document.getElementById('dialogboxfoot').innerHTML = '<button onclick="Alert.ok()">Back to Ophelia</button>';
+        document.getElementById('dialogboxfoot').innerHTML = '<button onclick="Alert.ok()">OK</button>';
     }
 	this.ok = function(){
 		document.getElementById('dialogbox').style.display = "none";
@@ -24,6 +24,10 @@ function CustomAlert(){
 }
 var Alert = new CustomAlert();
 
-function off() {
-  document.getElementById("dialogoverlay").style.display = "none";
-}
+// function on() {
+//   document.getElementById("dialogoverlay").style.display = "block";
+// }
+//
+// function off() {
+//   document.getElementById("dialogoverlay").style.display = "none";
+// }
