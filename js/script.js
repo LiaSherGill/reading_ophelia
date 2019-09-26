@@ -25,5 +25,5 @@ function CustomAlert(){
 var Alert = new CustomAlert();
 
 function off() {
-  document.getElementById("overlay").style.display = "none";
+  document.getElementById("dialogoverlay").style.display = "none";
 }
