@@ -9,7 +9,8 @@
     <!-- MY STYLESHEET -->
     <link rel="stylesheet" href="./css/styles.css">
     <!-- GOOGLE FONT -->
-
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400i&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     <!-- MATERIAL ICONS -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   </head>
@@ -33,18 +34,18 @@
     </div>
   </div>
 
-  <div class="container">
+  <!-- <div class="container"> -->
     <div class="row">
       <div class="col">
-        <div class="title">Sir John Everett Millais, <em>Ophelia</em>, 1851-2</div>
+        <div class="title">Sir John Everett Millais, Ophelia, 1851-2</div>
       </div>
     </div>
-  </div>
+  <!-- </div> -->
 
   <div class="container">
     <div class="row">
       <div class="col">
-        <div class="sub">Millais included most of the flowers in the painting because they are mentioned in Hamlet or because of their symbolism.
+        <div class="sub">Millais included most of the flowers in the painting because they are mentioned in Hamlet or because of&nbsp;their symbolism.
           Click on the plants and flowers in the painting to find out what they represent.</div>
       </div>
     </div>
@@ -53,7 +54,12 @@
 
 <!-- IMAGE MAP -->
 
-<img src="images/ophelia.jpg" alt="Workplace" usemap="#workmap">
+<!-- <div class="container">
+  <div class="row">
+    <div class="col"> -->
+      <!-- <div class="image"> -->
+
+<img src="images/ophelia.jpg" alt="Workplace" usemap="#workmap" class="center">
 
 <map name="workmap">
 <div id="hotpoints">
@@ -72,7 +78,21 @@
 <area shape="react" coords="1322, 875, 1518, 966" onclick="Alert.render('FRITILLARY<br><br>Sorrow')">
 <area shape="react" coords="836, 85, 1163, 603" onclick="Alert.render('WHITE FIELD ROSES<br><br>Act IV, Scene V Laertes calls his sister, Ophelia, <em>rose of May</em>.<br><br>Roses are also symbolic for youth, love and beauty')">
 </div>
+</div>
 </map>
+
+<!-- </div> -->
+<!-- </div>
+</div>
+</div> -->
+
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <div class="footer"><a href="https://www.tate.org.uk/art/artworks/millais-ophelia-n01506">Sir John Everett Millais, Ophelia, 1851–2</a> © Tate, Creative Commons CC-BY-NC-ND (3.0 Unported)</div>
+    </div>
+  </div>
+</div>
 
 <!-- <button onclick="alert('You look very pretty today.')">Default Alert</button>
 <button onclick="Alert.render('You look very pretty today.')">Custom Alert</button>
